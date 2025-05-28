@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         btnAssignManager = findViewById(R.id.btnAssignManager);
         btnViewDepartmentEmployees = findViewById(R.id.btnViewDepartmentEmployees);
 
-        // טעינת פרגמנט ברירת מחדל (לא חובה)
         loadFragment(new AddEmployeeFragment());
 
         // מאזינים לכפתורים
